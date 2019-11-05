@@ -3,14 +3,13 @@ const path = require('path');
 const Commando = require('discord.js-commando');
 const {
   owner,
-  // prefix,
+  prefix,
   token,
 } = require('@/config.js');
 
 
 const client = new Commando.Client({
-  // commandPrefix: prefix,
-  commandPrefix: '?',
+  commandPrefix: prefix,
   owner: owner,
   disableEveryone: true,
   unknownCommandResponse: false,
