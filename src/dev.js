@@ -21,7 +21,7 @@ client.registry
     ['administration', 'Administration commands'],
     ['fun', 'Fun commands'],
     ['media', 'Media commands'],
-    ['vocal', 'Vocal commands'],
+    //['vocal', 'Vocal commands'],
   ])
   .registerDefaultGroups()
   .registerDefaultCommands()

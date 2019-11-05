@@ -41,7 +41,7 @@ class Infos extends Command {
       .addField('Joined Server:', formating.formatingDateTime(member.joinedAt), true)
       .addField('Bot:', user.bot, true)
       .addField('Status:', user.presence.status, true)
-      .addField('Game:', user.presence.game ? user.presence.game.name : 'None', true)
+      // .addField('Game:', user.presence.game ? user.presence.game.name : 'None', true)
       .addField('Roles:', member.roles.map(roles => `${roles.name}`).join(', '), true);
     if (user.lastmsg) {
       embed.addBlankField()
