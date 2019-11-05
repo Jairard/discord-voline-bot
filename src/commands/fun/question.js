@@ -26,7 +26,7 @@ class Question extends Command {
 
   run(msg, { question }) {
     const random = Math.round(Math.random());
-    const answer = random ? ' i would say yes !' : ' i would say no !';
+    const answer = random ? 'I would say yes !' : 'I would say no !';
     const embed = new RichEmbed()
       .setTitle(question)
       .setDescription(answer)

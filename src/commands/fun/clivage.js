@@ -30,7 +30,7 @@ class Clivage extends Command {
 
   run(msg, { question }) {
     const random = Math.round(Math.random());
-    const answer = random ? ' sé de gôche' : ' sé de drouate';
+    const answer = random ? 'sé de gôche' : 'sé de drouate';
     const color = random ? '#CD0000' : '#4169E1';
     const image = random ? 'goche' : 'drouate';
     const embed = new RichEmbed()

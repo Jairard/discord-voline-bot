@@ -31,7 +31,7 @@ class Rate extends Command {
     const random = Math.floor((Math.random() * 11));
     const embed = new RichEmbed()
       .setTitle(question)
-      .setDescription(`i would say ${rate[random]} !`)
+      .setDescription(`I would say ${rate[random]} !`)
       .setColor('RANDOM')
       .setFooter(`Rate asked by: ${msg.author.username}`, `${msg.author.avatarURL}`);
     msg.channel.send({ embed });
