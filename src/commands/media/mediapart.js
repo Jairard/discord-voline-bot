@@ -26,7 +26,7 @@ class Mediapart extends Command {
           key: 'url',
           prompt: '**Which article do you want**\n',
           type: 'string',
-          validate: text => /^https:\/\/www.mediapart.fr*/.test(text),
+          validate: text => /^https?:\/\/www.mediapart.fr*/.test(text),
         },
       ],
     });
