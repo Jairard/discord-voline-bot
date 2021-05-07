@@ -12,8 +12,6 @@ const {
   moderatorIdRole,
   memberIdRole,
 } = require('@/config.js');
-const Jimp = require('jimp');
-
 
 // class Kick extends Command {
 //   constructor(client) {
@@ -76,5 +74,6 @@ const Jimp = require('jimp');
 //     });
 //   }
 // }
+
 
 // module.exports = Kick;
